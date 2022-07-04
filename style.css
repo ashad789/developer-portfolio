@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: dimgray;
+    font-weight: 550;
+}
+
+.orange-color {
+    color: rgb(255, 158, 2);
+}
+
+.flexibal-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2% 2%;
+    float: left;
+    margin-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+    padding: 5%;
+}
+
+.button {
+    padding: 10px, 40x;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(45deg, orange, rgb(244, 107, 38));
+    text-decoration: none;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Experiences {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+.Experiences-item {
+    box-shadow: 10px 10px 50px rgb(168, 155, 155);
+    padding: 2% 2%;
+    width: 80%;
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid blue;
+}
+
+#baby-web-developer {
+    border-left: 7px solid tomato;
+}
+
+footer {
+    text-align: center;
+    font-weight: 700;
+}
